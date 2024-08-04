@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.main
+{
+    border: 1px solid;
+    height: 100%;
+    width:100%;
+
+}
+select{
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+}
+ .attendance-btn{ 
+    /* color: white; */
+    display: inline-block;
+    background-color: green;     
+    border-radius: 54%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+
+} 
+
+.present{
+    background-color: green;
+    color: white;
+
+}
+.absent{
+    background-color: red;
+    color: white;
+}
